@@ -1,0 +1,70 @@
+Recap-HTML-Laboratória-Pré-fase-Day1
+Linguagem de marcação não executável
+
+ESTRUTURA DA PÁGINA
+HTML semântico 
+Acessibilidade através das tags semânticas.
+- HTML TAGS (Breve comentário das tags e conteúdos inseridos). 
+- Atributos as TAGS - informações 
+- Class - Universal (por exemplo). 
+NOMES DE ARQUIVOS
+HTML - Index 
+1 - Doc Type (chama o type HTML)
+2 - Head ("Escondido")
+3 - Body ("Corpo")
+Exemplos de algumas tags: p - div - main - footer - link(Linkar css) - article
+
+CSS
+- Propriedades hereditárias - (As tags filhas herdam as propriedades atribuidas). 
+- color: red; 
+- Diferenças de class e id - único, +específico que class| Class - vários.
+- Propriedades de valores - Background, display, padding, margin, height. 
+- Modelo de caixas - Content, padding, border, margin. 
+Left, Right, top, botom, effement parant
+- Magin-(Propriedades, olhar a documentação a ordem)
+- DISPLAY
+display block - na div (propriedade automática)
+display inline - 
+display inline block - 
+O que estudar?
+ - Pesquisar diferença de margin e padding;
+
+Java Script: 
+Explicação de escopo; 
+Diferença:
+let e const:
+let "existe apenas em blocos"
+=== - Não existe a conversão 
+== - Existe a conversão 
+Revisar os algoritmos 
+
+var ptexto = document.getElementById("id")
+nessa váriavel foi guardado um texto, puxado a partir do HTML
+
+ptexto.innerHTML = "blabla"
+Inner é o que se logaliza no interno da tag
+
+
+Calaculadora - 1 nome do usuário 
+2 confirmar 
+3 numeros 
+4 operação 
+5 resultado 
+Fluxograma (fotos no celular)
+
+minitutorial github pages - bit.ly/tutorial-gh
+
+danielacapassi_nutricao@hotmail.com
+
+
+$perguntas = [
+	1 => ["qual a cor do cavalo branco de napoleao" => [ 1 => "branca", 2 => "azul", 3 => "amarelo" ]]
+	2 => ["qual a cor do cavalo branco de napoleao" => [ 1 => "branca", 2 => "azul", 3 => "amarelo" ]]
+]
+
+ 
+
+ 
+
+
+

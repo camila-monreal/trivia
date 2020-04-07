@@ -2,40 +2,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Jogo do Halloween</title>
     <link rel="stylesheet" href="style.css">
 
-    
-    
+</head> 
+   
 <body>
-  <div id=home> 
-      <h1> Trivia </h1>
+
+  <header>
+    <div id=home> 
+      <h1> Jogo do Halloween </h1>
+      <img src="images/pumpkin.png" alt="Abobora" class=image-bat>
+      <img src="images/bat.png" alt="Morcego" class=image-pumpkin>
       <h2> Bem vindo! </h2>
-      <button onclick="start()">Etapa 1</button> 
-      <p id=name></p>
-      <button onclick="choose()">Etapa 2</button>
-        
-      <div class=questc>
-          <p>Respostas corretas:</p>
+      <h3> Esse jogo é de perguntas e respostas sobre o Halloween :)</h3>
+  </header>
+        <div id=botton-start>
+          <button class=botton onclick="start()">Comece o seu jogo: Insira seu nome 🎃</button> 
+          <p id=name></p>
+        </div>
+
+        <div id=botton-choose>
+          <button class=botton onclick="choose()">Comece a responder 🦇</button>
+        </div>
+
+        <div class=questc>
+          <h1>Respostas corretas:</h1>
           <p id=q1c></p>
           <p id=q2c></p>
         </div>
         
         <div class=questW>
-            <p>Respostas erradas:</p>
+            <h1>Respostas erradas:</h1>
             <p id=q1w></p>
             <p id=q2w></p>
         </div>
-  </div>
-
-  <div id=wrong> 
-
-  </div>
-   
-  <div id=right>
-
-  </div>
-
+    </div>
+  
+  
   <script src="app.js"></script>
 
 </body>
